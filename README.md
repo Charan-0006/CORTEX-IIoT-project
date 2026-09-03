@@ -243,8 +243,9 @@ The final system is intended to display:
 
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
 
+```text
 CORTEX-IIoT/
 │
 ├── data/
@@ -253,35 +254,22 @@ CORTEX-IIoT/
 │
 ├── src/
 │   ├── context_engine/
-│   │
 │   ├── graph_engine/
-│   │   ├── schema/
-│   │   ├── graph_builder/
-│   │   ├── analytics/
-│   │   └── visualization/
-│   │
 │   ├── agents/
-│   │
 │   ├── intelligence/
-│   │
 │   ├── dashboard/
-│   │
 │   └── workflow/
 │
 ├── tests/
-│
 ├── outputs/
-│   └── visualizations/
-│
 ├── docs/
-│
 ├── notebooks/
 │
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 └── .gitignore
-
+```
 
 
 ## 📌 Project Status
