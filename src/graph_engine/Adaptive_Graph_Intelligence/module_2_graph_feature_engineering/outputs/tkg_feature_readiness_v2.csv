@@ -1,0 +1,21 @@
+Attribute Name,Source Dataset,Stage 02 Role,TKG Relevance Rank,Temporal Role,Node / Edge Association,Potential Traversal Use
+RDDSK,Processed_Linux_dataset,Graph Node Property,1,Node Resource Metric,Process Node,Process disk I/O anomaly pathing
+WRDSK,Processed_Linux_dataset,Graph Node Property,2,Node Resource Metric,Process Node,Process data modification tracking
+VSIZE,Processed_Linux_dataset,Graph Node Property,3,Node Resource Metric,Process Node,Memory allocation spike detection
+RSIZE,Processed_Linux_dataset,Graph Node Property,4,Node Resource Metric,Process Node,Resident set memory footprint analysis
+MINFLT,Processed_Linux_dataset,Graph Node Property,5,Node Resource Metric,Process Node,Minor page fault rate tracking
+MAJFLT,Processed_Linux_dataset,Graph Node Property,6,Node Resource Metric,Process Node,Major page fault I/O delay analysis
+Process_pct_ User_Time,Processed_Windows_dataset,Graph Node Property,7,Node Performance Metric,Host / Process Node,CPU user execution intensity
+Process_pct_ Privileged_Time,Processed_Windows_dataset,Graph Node Property,8,Node Performance Metric,Host / Process Node,Kernel mode execution privilege escalation
+Memory_ Page_Faults_sec,Processed_Windows_dataset,Graph Node Property,9,System Performance Metric,Host Node,Host memory thrashing detection
+LogicalDisk_ Disk_Reads_sec,Processed_Windows_dataset,Graph Node Property,10,System I/O Metric,Host Node,Host disk read burst detection
+orig_bytes,Processed_Network_dataset,Relationship Property,11,Edge Traffic Volume,Communicates_With Edge,Data exfiltration volume pathing
+resp_bytes,Processed_Network_dataset,Relationship Property,12,Edge Traffic Volume,Communicates_With Edge,Payload download volume tracking
+orig_pkts,Processed_Network_dataset,Relationship Property,13,Edge Traffic Rate,Communicates_With Edge,Scanning packet flood detection
+resp_pkts,Processed_Network_dataset,Relationship Property,14,Edge Traffic Rate,Communicates_With Edge,Server response packet profiling
+temp_condition,Processed_IoT_dataset,Graph Node Property,15,IoT Sensor State,Device Node,Physical environmental tamper detection
+sphone_signal,Processed_IoT_dataset,Graph Node Property,16,IoT Connectivity State,Device Node,IoT Jamming / signal loss anomaly
+latitude,Processed_IoT_dataset,Graph Node Property,17,Geospatial Location,Device Node,Geospatial movement anomaly
+longitude,Processed_IoT_dataset,Graph Node Property,18,Geospatial Location,Device Node,Geospatial movement anomaly
+fwd_init_win_bytes,Processed_Network_dataset,Relationship Property,19,TCP Protocol State,Communicates_With Edge,TCP stack fingerprinting
+bwd_init_win_bytes,Processed_Network_dataset,Relationship Property,20,TCP Protocol State,Communicates_With Edge,Server TCP stack fingerprinting
