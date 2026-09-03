@@ -1,0 +1,18 @@
+Feature Name,Dataset,Target Node / Relationship,Stage 03 Role,Evidence Basis,Provenance,TKG Usefulness
+RDDSK,Processed_Linux_dataset,Process Node,Graph Node Property,Linux process disk read bytes counter in linux_disk_1.csv,OBSERVED,Process I/O anomaly detection & disk read volume pathing
+WRDSK,Processed_Linux_dataset,Process Node,Graph Node Property,Linux process disk write bytes counter in linux_disk_1.csv,OBSERVED,Process data modification tracking & ransomware write burst detection
+VSIZE,Processed_Linux_dataset,Process Node,Graph Node Property,Linux process virtual memory size in linux_memory1.csv,OBSERVED,Virtual memory allocation spike detection
+RSIZE,Processed_Linux_dataset,Process Node,Graph Node Property,Linux process resident set memory size in linux_memory1.csv,OBSERVED,Resident set memory footprint analysis
+MINFLT,Processed_Linux_dataset,Process Node,Graph Node Property,Linux process minor page fault counter in linux_process_1.csv,OBSERVED,Minor page fault rate tracking
+MAJFLT,Processed_Linux_dataset,Process Node,Graph Node Property,Linux process major page fault counter in linux_process_1.csv,OBSERVED,Major page fault I/O delay analysis
+Process_pct_ User_Time,Processed_Windows_dataset,Host / Process Node,Graph Node Property,Windows Process % User Time counter in windows10_dataset.csv,OBSERVED,CPU user execution intensity profiling
+Process_pct_ Privileged_Time,Processed_Windows_dataset,Host / Process Node,Graph Node Property,Windows Process % Privileged Time counter in windows10_dataset.csv,OBSERVED,Kernel mode execution privilege escalation detection
+orig_bytes,Processed_Network_dataset,COMMUNICATES_WITH Edge,Relationship Property,Zeek network flow client sent bytes payload,OBSERVED,Data exfiltration volume pathing
+resp_bytes,Processed_Network_dataset,COMMUNICATES_WITH Edge,Relationship Property,Zeek network flow server sent bytes payload,OBSERVED,Payload download volume tracking
+orig_pkts,Processed_Network_dataset,COMMUNICATES_WITH Edge,Relationship Property,Zeek network flow client packet count,OBSERVED,Scanning packet flood detection
+resp_pkts,Processed_Network_dataset,COMMUNICATES_WITH Edge,Relationship Property,Zeek network flow server packet count,OBSERVED,Server response packet profiling
+fwd_init_win_bytes,Processed_Network_dataset,COMMUNICATES_WITH Edge,Relationship Property,CICIDS forward TCP initial window size,OBSERVED,TCP stack OS fingerprinting
+temp_condition,Processed_IoT_dataset,Device Node / ProcessVariable,Graph Node Property,IoT Thermostat temperature state indicator in IoT_Thermostat.csv,OBSERVED,Physical environmental tamper detection
+sphone_signal,Processed_IoT_dataset,Device Node,Graph Node Property,IoT device smartphone signal indicator in IoT_Weather.csv,OBSERVED,IoT Jamming / signal loss anomaly
+latitude,Processed_IoT_dataset,Geospatial_Location Node,Graph Node Property,IoT GPS Tracker latitude coordinate in IoT_GPS_Tracker.csv,OBSERVED,Geospatial movement anomaly
+longitude,Processed_IoT_dataset,Geospatial_Location Node,Graph Node Property,IoT GPS Tracker longitude coordinate in IoT_GPS_Tracker.csv,OBSERVED,Geospatial movement anomaly
