@@ -1,0 +1,30 @@
+{
+    "incident_id": "INC-192168130-1921681194",
+    "attack_type": "Normal_Traffic",
+    "source_host": "192.168.1.30",
+    "target_host": "192.168.1.194",
+    "service": "None",
+    "attack_path": [
+        "Host:192.168.1.30",
+        "Host:192.168.1.194"
+    ],
+    "reconstructed_path_details": [],
+    "important_nodes": [
+        "Host:192.168.1.195",
+        "Alert:Network:scanning",
+        "Host:192.168.1.32",
+        "Host:192.168.1.30",
+        "Host:192.168.1.180",
+        "Host:192.168.1.169"
+    ],
+    "connectivity": {
+        "total_nodes": 18007,
+        "total_edges": 52267,
+        "average_degree": 5.8052,
+        "graph_density": 0.00016120145706353684,
+        "connected_components": 2
+    },
+    "risk_level": "PENDING (Rule-based risk scoring heuristic TODO)",
+    "graph_confidence": "PENDING (Multi-Agent consensus verification TODO)",
+    "downstream_consumer": "Multi-Agent AI Reasoning Layer (CORTEX Layer 4)"
+}
