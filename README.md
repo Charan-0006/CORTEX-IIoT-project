@@ -277,7 +277,7 @@ CORTEX-IIoT/
 |---|---|
 | **Lokpradeep B** | Adaptive Graph Intelligence --> src/graph_engine/TKG |
 | **Uday Ganesh B** | Context Intelligence & System Integration |
-| **Sri Charan N** | Network Provenance Graph & Multi-Agent Integration --> src/graph_engine/network_provenance_graph|
+| **Sri Charan N** | Network Provenance Graph & Multi-Agent Integration --> src/graph_engine/network_provenance_graph<br>|
 | **Akshara Kruti P** | Contextual Reasoning & Confidence |
 
 ### Project Guide
