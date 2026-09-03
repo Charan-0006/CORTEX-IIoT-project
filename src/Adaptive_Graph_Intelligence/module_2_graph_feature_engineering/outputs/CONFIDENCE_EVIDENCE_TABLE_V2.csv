@@ -1,0 +1,26 @@
+Relationship Name,Source Entity,Target Entity,Provenance Status,Confidence Score,Evidence Basis,Validation Method
+COMMUNICATES_WITH,Source IP,Destination IP,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+EXECUTES,User,Process,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+USES_PROTOCOL,Session,Protocol,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+RUNS_ON,Process,Host,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+CREATES,Process,Process,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+GENERATES_ALERT,Device,Alert,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+ACCESSES,Process,System_Resource,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+NEXT_EVENT,Event (t_i),Event (t_i+1),OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+PREVIOUS_EVENT,Event (t_i+1),Event (t_i),OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+BEFORE,Event (t_i),Event (t_i+1),OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+AFTER,Event (t_i+1),Event (t_i),OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+SAME_HOST,Node A,Node B,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+SAME_SESSION,Node A,Node B,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+SAME_USER,Node A,Node B,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+USES_PORT,Source IP,Port,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+CONTAINS_FLOW,Session,Network_Flow,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+RUNS_COMMAND,Process,Command,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+MEASURES,IoT_Sensor,ProcessVariable,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+OBSERVED_AT,ProcessVariable,Observation,DERIVED,1.0,Mathematical aggregation / sequence calculation from observed attributes,Mathematical Function Verification
+TRANSFERS_DATA,Source IP,Destination IP,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+AUTHENTICATES_WITH,User,Account,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+BOUND_TO_ADAPTER,Host,Network_Adapter,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+ALLOCATES_MEMORY,Process,Memory_Pool,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+IN_OPERATIONAL_STATE,Host / Device,OperationalState,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification
+LOCATED_IN,Device,Geospatial_Location,OBSERVED,1.0,Direct schema attribute match in raw telemetry logs,Deterministic Schema Verification

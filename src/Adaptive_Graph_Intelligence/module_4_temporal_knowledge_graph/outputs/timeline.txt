@@ -1,0 +1,77 @@
+================================================================================
+                MODULE 4: CHRONOLOGICAL EVENT TIMELINE REPORT                   
+================================================================================
+
+1. EXECUTIVE TIMELINE OVERVIEW
+--------------------------------------------------------------------------------
+  • Total Event Timelines         : 4
+  • Total Event Sequences         : 793
+  • Average Sequence Length       : 11.98 events
+  • Average Sequence Duration     : 6055.96 s
+  • Average Inter-Event Delay     : 637357.77 ms
+  • Earliest Horizon Timestamp    : 2019-04-02T06:12:46Z
+  • Latest Horizon Timestamp      : 2019-05-02T11:07:58Z
+
+2. REAL DATASET CHRONOLOGICAL EVENT CHAINS & DELAYS (SAMPLE)
+--------------------------------------------------------------------------------
+  [SEQ_PRO_0001] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0002] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0003] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0004] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0005] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0006] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0007] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0008] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0009] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0010] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0011] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0012] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0013] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0014] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+  [SEQ_PRO_0015] Dataset: Processed_IoT_dataset | Length: 12 events | Duration: 0.0 s
+      Time Window : 31-Mar-19  -->  31-Mar-19
+      Event Chain : Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0) -> (+0 ms) -> Device (0)
+
+================================================================================
