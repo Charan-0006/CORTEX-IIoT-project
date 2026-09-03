@@ -1,0 +1,54 @@
+================================================================================
+                MODULE 2: REFINED GRAPH FEATURE ENGINEERING REPORT              
+================================================================================
+
+1. EXECUTIVE SUMMARY & METHODOLOGY
+--------------------------------------------------------------------------------
+  • Objective : Extract candidate graph entities, infer semantic relationships,
+                construct semantic feature vectors F(e), and map attributes.
+  • Refinement: Deduplicated Event entities, semantic IDs (SRCIP_001, PROC_001),
+                and 3-level readiness tags (Ready, Conditional, Metadata Only).
+
+2. EXTRACTED GRAPH ENTITIES SUMMARY (DEDUPLICATED)
+--------------------------------------------------------------------------------
+  • Total Entity Attributes Identified: 30
+      - Event: 10
+      - User: 5
+      - Device: 3
+      - Session: 3
+      - Process: 2
+      - Source IP: 2
+      - Destination IP: 2
+      - Protocol: 1
+      - Service: 1
+      - Host: 1
+
+3. INFERRED CANDIDATE RELATIONSHIPS
+--------------------------------------------------------------------------------
+  • Total Candidate Relationships Inferred: 10
+      - accesses: 2
+      - creates: 2
+      - executes: 2
+      - uses: 1
+      - generates: 1
+      - runs_on: 1
+      - communicates_with: 1
+
+4. ENGINEERED GRAPH FEATURE VECTORS F(e)
+--------------------------------------------------------------------------------
+  • Total Entity Feature Vectors Created: 30
+  • Graph Readiness Tags Breakdown (3 Levels):
+      - Ready: 15
+      - Conditional: 15
+      - Metadata Only: 0
+
+5. UNIFIED FEATURE MAPPING BREAKDOWN
+--------------------------------------------------------------------------------
+  • Total Dataset Attributes Mapped: 1444
+      - Ignored Attribute: 564
+      - Graph Entity: 307
+      - Metadata Attribute: 275
+      - Graph Attribute: 224
+      - Relationship Attribute: 74
+
+================================================================================

@@ -1,0 +1,38 @@
+{
+    "total_entities_extracted": 30,
+    "total_relationships_inferred": 10,
+    "total_feature_vectors": 30,
+    "total_attributes_mapped": 1444,
+    "entity_type_counts": {
+        "Event": 10,
+        "User": 5,
+        "Device": 3,
+        "Session": 3,
+        "Process": 2,
+        "Source IP": 2,
+        "Destination IP": 2,
+        "Protocol": 1,
+        "Service": 1,
+        "Host": 1
+    },
+    "relationship_type_counts": {
+        "accesses": 2,
+        "creates": 2,
+        "executes": 2,
+        "uses": 1,
+        "generates": 1,
+        "runs_on": 1,
+        "communicates_with": 1
+    },
+    "readiness_tag_counts": {
+        "Ready": 15,
+        "Conditional": 15
+    },
+    "feature_mapping_counts": {
+        "Ignored Attribute": 564,
+        "Graph Entity": 307,
+        "Metadata Attribute": 275,
+        "Graph Attribute": 224,
+        "Relationship Attribute": 74
+    }
+}
