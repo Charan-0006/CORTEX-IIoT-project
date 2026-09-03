@@ -1,0 +1,24 @@
+Total Context Records: 110000
+Unique Source IPs: 35
+Unique Destination IPs: 274
+Unique Network Flow Tuples: 4846
+Original Profile Keys count: 5506
+Stable Profile Keys count: 44
+
+Original Profiles:
+  - IoT_Device: 2
+  - Actuator: 2
+  - PLC: 1
+  - Sensor: 2
+  - Gateway: 4846
+  - Linux_Host: 652
+  - Windows_Host: 1
+
+Stable Profiles:
+  - PLC: 1
+  - Gateway: 1
+  - HMI: 35
+  - IoT Device: 3
+  - Sensor: 2
+  - Actuator: 2
+  - Operator: 0

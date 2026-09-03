@@ -1,0 +1,66 @@
+=== Sheet: Sheet1 ===
+Detected Headers: ['nan', 'ID', 'Feature', 'Type', 'Description']
+{'nan': nan, 'ID': 1, 'Feature': 'ts', 'Type': 'Time ', 'Description': 'Timestamp of connection between flow identifiers  '}
+{'nan': nan, 'ID': 2, 'Feature': 'src_ip', 'Type': 'String ', 'Description': 'Source IP addresses which originate endpoints’ IP addresses '}
+{'nan': nan, 'ID': 3, 'Feature': 'src_port', 'Type': 'Number ', 'Description': 'Source ports which Originate endpoint’s TCP/UDP ports '}
+{'nan': nan, 'ID': 4, 'Feature': 'dst_ip', 'Type': 'String ', 'Description': 'Destination IP addresses which respond to endpoint’s IP addresses '}
+{'nan': nan, 'ID': 5, 'Feature': 'dst_port', 'Type': 'Number ', 'Description': 'Destination ports which respond to endpoint’s TCP/UDP ports'}
+{'nan': nan, 'ID': 6, 'Feature': 'proto', 'Type': 'String ', 'Description': 'Transport layer protocols of flow connections'}
+{'nan': nan, 'ID': 7, 'Feature': 'service', 'Type': 'String ', 'Description': 'Dynamically detected protocols, such as DNS, HTTP and SSL'}
+{'nan': nan, 'ID': 8, 'Feature': 'duration', 'Type': 'Number ', 'Description': 'The time of the packet connections, which is estimated by subtracting ‘time of last packet seen’ and ‘time of first packet seen’'}
+{'nan': nan, 'ID': 9, 'Feature': 'src_bytes', 'Type': 'Number ', 'Description': '\xa0Source bytes which are originated from payload bytes of TCP sequence numbers '}
+{'nan': nan, 'ID': 10, 'Feature': 'dst_bytes', 'Type': 'Number ', 'Description': '\xa0Destination bytes which are responded payload bytes from TCP sequence numbers'}
+{'nan': nan, 'ID': 11, 'Feature': 'conn_state', 'Type': 'String ', 'Description': '\xa0Various connection states, such as S0 (connection without replay), S1 (connection established), and REJ (connection attempt rejected)'}
+{'nan': nan, 'ID': 12, 'Feature': 'missed_bytes', 'Type': 'Number ', 'Description': 'Number of missing bytes in content gaps '}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: Statistical activity ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description'}
+{'nan': nan, 'ID': 13, 'Feature': 'src_pkts', 'Type': 'Number', 'Description': 'Number of original packets which is estimated from source systems'}
+{'nan': nan, 'ID': 14, 'Feature': 'src_ip_bytes', 'Type': 'Number', 'Description': 'Number of original IP bytes which is the total length of IP header field of source systems'}
+{'nan': nan, 'ID': 15, 'Feature': 'dst_pkts', 'Type': 'Number', 'Description': 'Number of destination packets which is estimated from destination systems'}
+{'nan': nan, 'ID': 16, 'Feature': 'dst_ip_bytes', 'Type': 'Number', 'Description': '\xa0Number of destination IP bytes which is the total length of IP header field of destination systems'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: DNS activity ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description'}
+{'nan': nan, 'ID': 17, 'Feature': 'dns_query', 'Type': 'string', 'Description': '\xa0Domain name subjects of the DNS queries'}
+{'nan': nan, 'ID': 18, 'Feature': 'dns_qclass', 'Type': 'Number', 'Description': 'Values which specifies the DNS query classes '}
+{'nan': nan, 'ID': 19, 'Feature': 'dns_qtype', 'Type': 'Number ', 'Description': 'Value which specifies the DNS query types'}
+{'nan': nan, 'ID': 20, 'Feature': 'dns_rcode', 'Type': 'Number', 'Description': 'Response code values in the DNS responses'}
+{'nan': nan, 'ID': 21, 'Feature': 'dns_AA', 'Type': 'Boolean', 'Description': 'Authoritative answers of DNS, where T denotes server is authoritative for query '}
+{'nan': nan, 'ID': 22, 'Feature': 'dns_RD', 'Type': 'Boolean', 'Description': 'Recursion desired of DNS, where T denotes request recursive lookup of query'}
+{'nan': nan, 'ID': 23, 'Feature': 'dns_RA', 'Type': 'Boolean', 'Description': 'Recursion available of DNS, where T denotes server supports recursive queries'}
+{'nan': nan, 'ID': 24, 'Feature': 'dns_rejected', 'Type': 'Boolean', 'Description': 'DNS rejection, where the DNS queries are rejected by the server'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: SSL activity ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description'}
+{'nan': nan, 'ID': 25, 'Feature': 'ssl_version', 'Type': 'String ', 'Description': 'SSL version which is offered by the server '}
+{'nan': nan, 'ID': 26, 'Feature': 'ssl_cipher', 'Type': 'String ', 'Description': 'SSL cipher suite which the server chose'}
+{'nan': nan, 'ID': 27, 'Feature': 'ssl_resumed', 'Type': 'Boolean', 'Description': 'SSL flag indicates the session that can be used to initiate new connections, where T refers to the SSL connection is initiated '}
+{'nan': nan, 'ID': 28, 'Feature': 'ssl_established', 'Type': 'Boolean', 'Description': '\xa0SSL flag indicates establishing connections between two parties, where T refers to establishing the connection '}
+{'nan': nan, 'ID': 29, 'Feature': 'ssl_subject', 'Type': 'String ', 'Description': '\xa0Subject of the X.509 cert offered by the server'}
+{'nan': nan, 'ID': 30, 'Feature': 'ssl_issuer', 'Type': 'String ', 'Description': '\xa0Trusted owner/originator of SLL and digital certificate (certificate authority)'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: HTTP activity ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description'}
+{'nan': nan, 'ID': 31, 'Feature': 'http_trans_depth', 'Type': 'Number ', 'Description': '\xa0Pipelined depth into the HTTP connection'}
+{'nan': nan, 'ID': 32, 'Feature': 'http_method', 'Type': 'String ', 'Description': '\xa0HTTP request methods such as GET, POST and HEAD'}
+{'nan': nan, 'ID': 33, 'Feature': 'http_uri', 'Type': 'String ', 'Description': '\xa0URIs used in the HTTP request '}
+{'nan': nan, 'ID': 34, 'Feature': 'http_referrer', 'Type': 'String ', 'Description': 'Values of the ‘referer’ header in the HTTP protocol '}
+{'nan': nan, 'ID': 35, 'Feature': 'http_version', 'Type': 'String ', 'Description': '\xa0The HTTP versions utilised such as V1.1'}
+{'nan': nan, 'ID': 36, 'Feature': 'http_request_body_len', 'Type': 'Number', 'Description': 'Actual uncompressed content sizes of the data transferred from the HTTP client'}
+{'nan': nan, 'ID': 37, 'Feature': 'http_response_body_len', 'Type': 'Number', 'Description': 'Actual uncompressed content sizes of the data transferred from the HTTP server'}
+{'nan': nan, 'ID': 38, 'Feature': 'http_status_code', 'Type': 'Number', 'Description': 'Status codes returned by the HTTP server'}
+{'nan': nan, 'ID': 39, 'Feature': 'http_user_agent', 'Type': 'Number', 'Description': 'Values of the User-Agent header in the HTTP protocol  '}
+{'nan': nan, 'ID': 40, 'Feature': 'http_orig_mime_types', 'Type': 'String ', 'Description': 'Ordered vectors of mime types from source system in the HTTP protocol  '}
+{'nan': nan, 'ID': 41, 'Feature': 'http_resp_mime_types', 'Type': 'String ', 'Description': 'Ordered vectors of mime types from destination system in the HTTP protocol  '}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: Violation activity ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description'}
+{'nan': nan, 'ID': 42, 'Feature': 'weird_name', 'Type': 'String ', 'Description': 'Names of anomalies/violations related to protocols that happened\xa0'}
+{'nan': nan, 'ID': 43, 'Feature': 'weird_addl', 'Type': 'String ', 'Description': '\xa0Additional information is associated to protocol anomalies/violations'}
+{'nan': nan, 'ID': 44, 'Feature': 'weird_notice', 'Type': 'Boolean', 'Description': '\xa0It indicates if the violation/anomaly was turned into a notice'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: Data labelling', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description'}
+{'nan': nan, 'ID': 45, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 46, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}

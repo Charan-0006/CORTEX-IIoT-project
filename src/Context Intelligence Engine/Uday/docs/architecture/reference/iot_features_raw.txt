@@ -1,0 +1,65 @@
+=== Sheet: Sheet1 ===
+Detected Headers: ['nan', 'ID', 'Feature', 'Type', 'Description']
+{'nan': nan, 'ID': 1, 'Feature': 'date', 'Type': 'Date', 'Description': 'Date of logging IoT telemetry data'}
+{'nan': nan, 'ID': 2, 'Feature': 'time', 'Type': 'Time', 'Description': 'Time of logging IoT telemetry data '}
+{'nan': nan, 'ID': 3, 'Feature': 'fridge_temperature', 'Type': 'Number ', 'Description': 'Temperature measurement of a fridge sensor linked to the network'}
+{'nan': nan, 'ID': 4, 'Feature': 'temp_condition', 'Type': 'String ', 'Description': 'Temperature conditions of a fridge sensor linked to the network, where temperature is high of low based on a predefined  threshold value'}
+{'nan': nan, 'ID': 5, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 6, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: IoT Garage_Door  activity  ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description '}
+{'nan': nan, 'ID': 1, 'Feature': 'date', 'Type': 'Date', 'Description': 'Date of logging IoT telemetry data'}
+{'nan': nan, 'ID': 2, 'Feature': 'time', 'Type': 'Time', 'Description': 'Time of logging IoT telemetry data '}
+{'nan': nan, 'ID': 3, 'Feature': 'door_state', 'Type': 'Boolean ', 'Description': 'State of a  door sensor linked to the network where the door is closed or open'}
+{'nan': nan, 'ID': 4, 'Feature': 'sphone_signal', 'Type': 'Boolean', 'Description': 'State of receiving the door signal on a phone where the signal is true or false'}
+{'nan': nan, 'ID': 5, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 6, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: IoT GPS_Tracker  activity  ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description '}
+{'nan': nan, 'ID': 1, 'Feature': 'date', 'Type': 'Date', 'Description': 'Date of logging IoT telemetry data'}
+{'nan': nan, 'ID': 2, 'Feature': 'time', 'Type': 'Time', 'Description': 'Time of logging IoT telemetry data '}
+{'nan': nan, 'ID': 3, 'Feature': 'latitude', 'Type': 'Number ', 'Description': 'Latitude value of GPS tracker sensor linked to the network'}
+{'nan': nan, 'ID': 4, 'Feature': 'longitude', 'Type': 'Number ', 'Description': 'longitude value of GPS tracker sensor linked to the network'}
+{'nan': nan, 'ID': 5, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 6, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: IoT Modbus  activity  ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description '}
+{'nan': nan, 'ID': 1, 'Feature': 'date', 'Type': 'Date', 'Description': 'Date of logging IoT telemetry data'}
+{'nan': nan, 'ID': nan, 'Feature': 'time', 'Type': 'Time', 'Description': 'Time of logging IoT telemetry data'}
+{'nan': nan, 'ID': 2, 'Feature': 'FC1_Read_Input_Register', 'Type': 'Number ', 'Description': 'Modbus function code that is responsible for reading an input register'}
+{'nan': nan, 'ID': 3, 'Feature': 'FC2_Read_Discrete_Value', 'Type': 'Number ', 'Description': 'Modbus function code that is in charge of  reading a discrete value'}
+{'nan': nan, 'ID': 4, 'Feature': 'FC3_Read_Holding_Register', 'Type': 'Number ', 'Description': 'Modbus function code that is responsible for reading a holding register'}
+{'nan': nan, 'ID': 5, 'Feature': 'FC4_Read_Coil', 'Type': 'Number ', 'Description': 'Modbus function code that is responsible for reading a coil'}
+{'nan': nan, 'ID': 6, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 7, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: IoT Motion_Light  activity  ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description '}
+{'nan': nan, 'ID': 1, 'Feature': 'date', 'Type': 'Date', 'Description': 'Date of logging IoT telemetry data'}
+{'nan': nan, 'ID': 2, 'Feature': 'time', 'Type': 'Time', 'Description': 'Time of logging IoT telemetry data '}
+{'nan': nan, 'ID': 3, 'Feature': 'motion_status', 'Type': 'Number ', 'Description': 'Status of a motion sensor is either on (i.e., 1) or off (i.e., 0)'}
+{'nan': nan, 'ID': 4, 'Feature': 'light_status', 'Type': 'Boolean ', 'Description': 'Status of a light sensor is either on or off '}
+{'nan': nan, 'ID': 5, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 6, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: IoT Thermostat activity  ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description '}
+{'nan': nan, 'ID': 1, 'Feature': 'date', 'Type': 'Date', 'Description': 'Date of logging IoT telemetry data'}
+{'nan': nan, 'ID': 2, 'Feature': 'time', 'Type': 'Time', 'Description': 'Time of logging IoT telemetry data '}
+{'nan': nan, 'ID': 3, 'Feature': 'current_temperature', 'Type': 'Number ', 'Description': 'Current Temperature reading of a thermostat sensor connected with the network'}
+{'nan': nan, 'ID': 4, 'Feature': 'thermostat_status', 'Type': 'Boolean', 'Description': 'Status of a thermostat sensor is either on or off '}
+{'nan': nan, 'ID': 5, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 6, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}
+{'nan': nan, 'ID': nan, 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'Service profile: IoT Weather activity  ', 'Feature': nan, 'Type': nan, 'Description': nan}
+{'nan': nan, 'ID': 'ID', 'Feature': 'Feature', 'Type': 'Type', 'Description': 'Description '}
+{'nan': nan, 'ID': 1, 'Feature': 'date', 'Type': 'Date', 'Description': 'Date of logging IoT telemetry data'}
+{'nan': nan, 'ID': 2, 'Feature': 'time', 'Type': 'Time', 'Description': 'Time of logging IoT telemetry data '}
+{'nan': nan, 'ID': 3, 'Feature': 'temperature', 'Type': 'Number ', 'Description': 'Temperature measurements of a weather sensor linked to the network'}
+{'nan': nan, 'ID': 4, 'Feature': 'pressure', 'Type': 'Number ', 'Description': 'Pressure readings of a weather sensor linked to the network'}
+{'nan': nan, 'ID': 5, 'Feature': 'humidity', 'Type': 'Number ', 'Description': 'Humidity readings of a weather sensor linked to the network'}
+{'nan': nan, 'ID': 6, 'Feature': 'label', 'Type': 'Number ', 'Description': 'Tag normal and attack records, where 0 indicates normal and 1 indicates attacks '}
+{'nan': nan, 'ID': 7, 'Feature': 'type', 'Type': 'String ', 'Description': 'Tag attack categories, such as normal, DoS, DDoS and backdoor attacks, and normal records'}

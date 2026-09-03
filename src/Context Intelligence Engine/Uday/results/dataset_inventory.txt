@@ -1,0 +1,233 @@
+TON-IoT DATASET INVENTORY
+=========================
+
+Category: Processed_IoT_dataset
+File: IoT_Fridge.csv
+Records: 587076
+Columns: date, time, fridge_temperature, temp_condition, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_IoT_dataset\IoT_Fridge.csv
+--------------------------------------------------
+Category: Processed_IoT_dataset
+File: IoT_GPS_Tracker.csv
+Records: 595686
+Columns: date, time, latitude, longitude, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_IoT_dataset\IoT_GPS_Tracker.csv
+--------------------------------------------------
+Category: Processed_IoT_dataset
+File: IoT_Garage_Door.csv
+Records: 591446
+Columns: date, time, door_state, sphone_signal, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_IoT_dataset\IoT_Garage_Door.csv
+--------------------------------------------------
+Category: Processed_IoT_dataset
+File: IoT_Modbus.csv
+Records: 287194
+Columns: date, time, FC1_Read_Input_Register, FC2_Read_Discrete_Value, FC3_Read_Holding_Register, FC4_Read_Coil, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_IoT_dataset\IoT_Modbus.csv
+--------------------------------------------------
+Category: Processed_IoT_dataset
+File: IoT_Motion_Light.csv
+Records: 452262
+Columns: date, time, motion_status, light_status, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_IoT_dataset\IoT_Motion_Light.csv
+--------------------------------------------------
+Category: Processed_IoT_dataset
+File: IoT_Thermostat.csv
+Records: 442228
+Columns: date, time, current_temperature, thermostat_status, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_IoT_dataset\IoT_Thermostat.csv
+--------------------------------------------------
+Category: Processed_IoT_dataset
+File: IoT_Weather.csv
+Records: 650242
+Columns: date, time, temperature, pressure, humidity, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_IoT_dataset\IoT_Weather.csv
+--------------------------------------------------
+Category: Processed_Linux_dataset
+File: Linux_process_1.csv
+Records: 1000000
+Columns: ts, PID, TRUN, TSLPI, TSLPU, POLI, NICE, PRI, RTPR, CPUNR, Status, EXC, State, CPU, CMD, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Linux_dataset\Linux_process_1.csv
+--------------------------------------------------
+Category: Processed_Linux_dataset
+File: Linux_process_2.csv
+Records: 927968
+Columns: ts, PID, TRUN, TSLPI, TSLPU, POLI, NICE, PRI, RTPR, CPUNR, Status, EXC, State, CPU, CMD, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Linux_dataset\Linux_process_2.csv
+--------------------------------------------------
+Category: Processed_Linux_dataset
+File: linux_disk_1.csv
+Records: 1000000
+Columns: ts, PID, RDDSK, WRDSK, WCANCL, DSK, CMD, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Linux_dataset\linux_disk_1.csv
+--------------------------------------------------
+Category: Processed_Linux_dataset
+File: linux_disk_2.csv
+Records: 927361
+Columns: ts, PID, RDDSK, WRDSK, WCANCL, DSK, CMD, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Linux_dataset\linux_disk_2.csv
+--------------------------------------------------
+Category: Processed_Linux_dataset
+File: linux_memory1.csv
+Records: 1000000
+Columns: ts, PID, MINFLT, MAJFLT, VSTEXT, VSIZE, RSIZE, VGROW, RGROW, MEM, CMD, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Linux_dataset\linux_memory1.csv
+--------------------------------------------------
+Category: Processed_Linux_dataset
+File: linux_memory2.csv
+Records: 1000000
+Columns: ts, PID, MINFLT, MAJFLT, VSTEXT, VSIZE, RSIZE, VGROW, RGROW, MEM, CMD, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Linux_dataset\linux_memory2.csv
+--------------------------------------------------
+Category: Processed_Windows_dataset
+File: windows10_dataset.csv
+Records: 35975
+Columns: ts, Processor_DPC_Rate, Processor_pct_ Idle_Time, Processor_pct_ C3_Time, Processor_pct_ Interrupt_Time, Processor_pct_ C2_Time, Processor_pct_ User_Time, Processor_pct_ C1_Time, Processor_pct_ Processor_Time, Processor_C1_ransitions_sec, Processor_pct_ DPC_Time, Processor_C2_ransitions_sec, Processor_pct_ Privileged_Time, Processor_C3_ransitions_sec, Processor_DPCs_Queued_sec, Processor_Interrupts_sec, Process_Pool_Paged Bytes, Process_IO Read_Operations_sec, Process_Working_Set_ Private, Process_Working_Set_Peak, Process_IO_Write Operations_sec, Process_Page_File Bytes, Process_pct_ User_Time, Process_Virtual_Bytes Peak, Process_Page_File Bytes Peak, Process_IO_Other_Bytes_sec, Process_Private_Bytes, Process_IO_Write_Bytes_sec, Process_Elapsed_Time, Process_Virtual_Bytes, Process_pct_ Processor_Time, Process_Creating Process ID, Process_Pool Nonpaged Bytes, Process_Working Set, Process_Page Faults_sec, Process_ID Process, Process_IO Other Operations_sec, Process_IO Data Operations_sec, Process_Thread Count, Process_pct_ Privileged_Time, Process_IO Data Bytes_sec, Process_IO Read Bytes_sec, Process_Priority Base, Process_Handle Count, Network_I(Intel R _82574L_GNC)TCP_APS, Network_I(Intel R _82574L_GNC) Packets Received Unknown, Network_I(Intel R _82574L_GNC) Bytes Received sec, Network_I(Intel R _82574L_GNC) Bytes Sent sec, Network_I(Intel R _82574L_GNC) Packets Outbound Errors, Network_I(Intel R _82574L_GNC) Packets Received Discarded, Network_I(Intel R _82574L_GNC) Bytes Total sec, Network_I(Intel R _82574L_GNC) Packets Outbound Discarded, Network_I(Intel R _82574L_GNC) TCP RSC Exceptions sec, Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec, Network_I(Intel R _82574L_GNC) Output Queue Length, Network_I(Intel R _82574L_GNC) Packets Received sec, Network_I(Intel R _82574L_GNC) Current Bandwidth, Network_I(Intel R _82574L_GNC) Packets sec, Network_I(Intel R _82574L_GNC) TCP Active RSC Connections, Network_I(Intel R _82574L_GNC) Packets Sent sec, Network_I(Intel R _82574L_GNC) Packets Received Unicast sec, Network_I(Intel R _82574L_GNC) Packets Sent Non-Unicast sec, Network_I(Intel R _82574L_GNC) Packets Received Non-Unicast sec, Network_I(Intel R _82574L_GNC) TCP RSC Coalesced Packets sec, Network_I(Intel R _82574L_GNC) Offloaded Connections, Network_I(Intel R _82574L_GNC) Packets Received Errors, Memory Pool Paged Bytes, Memory Free & Zero Page List Bytes, Memory Cache Bytes Peak, Memory System Code Resident Bytes, Memory Available Bytes, Memory Commit Limit, Memory Transition Pages RePurposed sec, Memory Pages Output sec, Memory Page Reads sec, Memory Demand Zero Faults sec, Memory Available KBytes, Memory Pages sec, Memory Cache Bytes, Memory Pool Nonpaged Bytes, Memory Page Faults sec, Memory Transition Faults sec, Memory System Cache Resident Bytes, Memory Long-Term Average Standby Cache Lifetime (s), Memory Standby Cache Reserve Bytes, Memory Page Writes sec, Memory System Code Total Bytes, Memory Standby Cache Core Bytes, Memory System Driver Resident Bytes, Memory Standby Cache Normal Priority Bytes, Memory Pool Paged Allocs, Memory Pool Nonpaged Allocs, Memory pct_ Committed Bytes In Use, Memory Free System Page Table Entries, Memory Available MBytes, Memory Modified Page List Bytes, Memory Cache Faults sec, Memory Committed Bytes, Memory System Driver Total Bytes, Memory Pages Input sec, Memory Pool Paged Resident Bytes, Memory Write Copies sec, LogicalDisk(_Total) Avg  Disk Bytes Write, LogicalDisk(_Total) pct_ Idle Time, LogicalDisk(_Total) Disk Reads sec, LogicalDisk(_Total) pct_ Free Space, LogicalDisk(_Total) Disk Read Bytes sec, LogicalDisk(_Total) Avg  Disk sec Read, LogicalDisk(_Total) Disk Writes sec, LogicalDisk(_Total) Current Disk Queue Length, LogicalDisk(_Total) Split IO Sec, LogicalDisk(_Total) Free Megabytes, LogicalDisk(_Total) Avg  Disk sec Write, LogicalDisk(_Total) Disk Bytes sec, LogicalDisk(_Total) Avg  Disk Read Queue Length, LogicalDisk(_Total) pct_ Disk Time, LogicalDisk(_Total) Avg  Disk Bytes Read, LogicalDisk(_Total) Avg  Disk Write Queue Length, LogicalDisk(_Total) Avg  Disk Queue Length, LogicalDisk(_Total) pct_ Disk Read Time, LogicalDisk(_Total) Disk Write Bytes sec, LogicalDisk(_Total) Disk Transfers sec, LogicalDisk(_Total) Avg  Disk Bytes Transfer, LogicalDisk(_Total) pct_ Disk Write Time, LogicalDisk(_Total) Avg  Disk sec Transfer, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Windows_dataset\windows10_dataset.csv
+--------------------------------------------------
+Category: Processed_Windows_dataset
+File: windows7_dataset.csv
+Records: 28367
+Columns: ts, Processor(_Total) DPC Rate, Processor(_Total) pct_ Idle Time, Processor(_Total) pct_ C3 Time, Processor(_Total) pct_ Interrupt Time, Processor(_Total) pct_ C2 Time, Processor(_Total) pct_ User Time, Processor(_Total) pct_ C1 Time, Processor(_Total) pct_ Processor Time, Processor(_Total) C1 Transitions sec, Processor(_Total) pct_ DPC Time, Processor(_Total) C2 Transitions sec, Processor(_Total) pct_ Privileged Time, Processor(_Total) C3 Transitions sec, Processor(_Total) DPCs Queued sec, Processor(_Total) Interrupts sec, Process(_Total) Pool Paged Bytes, Process(_Total) IO Read Operations sec, Process(_Total) Working Set - Private, Process(_Total) Working Set Peak, Process(_Total) IO Write Operations sec, Process(_Total) Page File Bytes, Process(_Total) pct_ User Time, Process(_Total) Virtual Bytes Peak, Process(_Total) Page File Bytes Peak, Process(_Total) IO Other Bytes sec, Process(_Total) Private Bytes, Process(_Total) IO Write Bytes sec, Process(_Total) Elapsed Time, Process(_Total) Virtual Bytes, Process(_Total) pct_ Processor Time, Process(_Total) Creating Process ID, Process(_Total) Pool Nonpaged Bytes, Process(_Total) Working Set, Process(_Total) Page Faults sec, Process(_Total) ID Process, Process(_Total) IO Other Operations sec, Process(_Total) IO Data Operations sec, Process(_Total) Thread Count, Process(_Total) pct_ Privileged Time, Process(_Total) IO Data Bytes sec, Process(_Total) IO Read Bytes sec, Process(_Total) Priority Base, Process(_Total) Handle Count, Network_I(6TO4 Adapter) Packets Received Unknown, Network_I(isatap{B4D100D3-}) Packets Received Unknown, Network_I(Intel R _Pro_1000MT) Packets Received Unknown, Network_I(6TO4 Adapter) Bytes Received sec, Network_I(isatap{B4D100D3-}) Bytes Received sec, Network_I(Intel R _Pro_1000MT) Bytes Received sec, Network_I(6TO4 Adapter) Bytes Sent sec, Network_I(isatap{B4D100D3-}) Bytes Sent sec, Network_I(Intel R _Pro_1000MT) Bytes Sent sec, Network_I(6TO4 Adapter) Packets Outbound Errors, Network_I(isatap{B4D100D3-}) Packets Outbound Errors, Network_I(Intel R _Pro_1000MT) Packets Outbound Errors, Network_I(6TO4 Adapter) Packets Received Discarded, Network_I(isatap{B4D100D3-}) Packets Received Discarded, Network_I(Intel R _Pro_1000MT) Packets Received Discarded, Network_I(6TO4 Adapter) Bytes Total sec, Network_I(isatap{B4D100D3-}) Bytes Total sec, Network_I(Intel R _Pro_1000MT) Bytes Total sec, Network_I(6TO4 Adapter) Packets Outbound Discarded, Network_I(isatap{B4D100D3-}) Packets Outbound Discarded, Network_I(Intel R _Pro_1000MT) Packets Outbound Discarded, Network_I(6TO4 Adapter) Packets Sent Unicast sec, Network_I(isatap{B4D100D3-}) Packets Sent Unicast sec, Network_I(Intel R _Pro_1000MT) Packets Sent Unicast sec, Network_I(6TO4 Adapter) Output Queue Length, Network_I(isatap{B4D100D3-}) Output Queue Length, Network_I(Intel R _Pro_1000MT) Output Queue Length, Network_I(6TO4 Adapter) Packets Received sec, Network_I(isatap{B4D100D3-}) Packets Received sec, Network_I(Intel R _Pro_1000MT) Packets Received sec, Network_I(6TO4 Adapter) Current Bandwidth, Network_I(isatap{B4D100D3-}) Current Bandwidth, Network_I(Intel R _Pro_1000MT) Current Bandwidth, Network_I(6TO4 Adapter) Packets sec, Network_I(isatap{B4D100D3-}) Packets sec, Network_I(Intel R _Pro_1000MT) Packets sec, Network_I(6TO4 Adapter) Packets Sent sec, Network_I(isatap{B4D100D3-}) Packets Sent sec, Network_I(Intel R _Pro_1000MT) Packets Sent sec, Network_I(6TO4 Adapter) Packets Received Unicast sec, Network_I(isatap{B4D100D3-}) Packets Received Unicast sec, Network_I(Intel R _Pro_1000MT) Packets Received Unicast sec, Network_I(6TO4 Adapter) Packets Sent Non-Unicast sec, Network_I(isatap{B4D100D3-}) Packets Sent Non-Unicast sec, Network_I(Intel R _Pro_1000MT) Packets Sent Non-Unicast sec, Network_I(6TO4 Adapter) Packets Received Non-Unicast sec, Network_I(isatap{B4D100D3-}) Packets Received Non-Unicast sec, Network_I(Intel R _Pro_1000MT) Packets Received Non-Unicast sec, Network_I(6TO4 Adapter) Offloaded Connections, Network_I(isatap{B4D100D3-}) Offloaded Connections, Network_I(Intel R _Pro_1000MT) Offloaded Connections, Network_I(6TO4 Adapter) Packets Received Errors, Network_I(isatap{B4D100D3-}) Packets Received Errors, Network_I(Intel R _Pro_1000MT) Packets Received Errors, Memory Pool Paged Bytes, Memory Free & Zero Page List Bytes, Memory Cache Bytes Peak, Memory System Code Resident Bytes, Memory Available Bytes, Memory Commit Limit, Memory Transition Pages RePurposed sec, Memory Pages Output sec, Memory Page Reads sec, Memory Demand Zero Faults sec, Memory Available KBytes, Memory Pages sec, Memory Cache Bytes, Memory Pool Nonpaged Bytes, Memory Page Faults sec, Memory Transition Faults sec, Memory System Cache Resident Bytes, Memory Standby Cache Reserve Bytes, Memory Page Writes sec, Memory System Code Total Bytes, Memory Standby Cache Core Bytes, Memory System Driver Resident Bytes, Memory Standby Cache Normal Priority Bytes, Memory Pool Paged Allocs, Memory Pool Nonpaged Allocs, Memory pct_ Committed Bytes In Use, Memory Free System Page Table Entries, Memory Available MBytes, Memory Modified Page List Bytes, Memory Cache Faults sec, Memory Committed Bytes, Memory System Driver Total Bytes, Memory Pages Input sec, Memory Pool Paged Resident Bytes, Memory Write Copies sec, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Windows_dataset\windows7_dataset.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_1.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_1.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_2.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_2.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_3.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_3.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_4.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_4.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_5.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_5.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_6.csv
+Records: 1000000
+Columns: ts, uid, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_6.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_7.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_7.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_8.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_8.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_9.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_9.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_10.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_10.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_11.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_11.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_12.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_12.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_13.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_13.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_14.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_14.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_15.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_15.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_16.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_16.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_17.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_17.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_18.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_18.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_19.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_19.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_20.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_20.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_21.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_21.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_22.csv
+Records: 1000000
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_22.csv
+--------------------------------------------------
+Category: Processed_Network_dataset
+File: Network_dataset_23.csv
+Records: 339021
+Columns: ts, src_ip, src_port, dst_ip, dst_port, proto, service, duration, src_bytes, dst_bytes, conn_state, missed_bytes, src_pkts, src_ip_bytes, dst_pkts, dst_ip_bytes, dns_query, dns_qclass, dns_qtype, dns_rcode, dns_AA, dns_RD, dns_RA, dns_rejected, ssl_version, ssl_cipher, ssl_resumed, ssl_established, ssl_subject, ssl_issuer, http_trans_depth, http_method, http_uri, http_referrer, http_version, http_request_body_len, http_response_body_len, http_status_code, http_user_agent, http_orig_mime_types, http_resp_mime_types, weird_name, weird_addl, weird_notice, label, type
+Path: d:\CORTEX\TON_IoT Datasets\Processed_datasets\Processed_datasets\Processed_Network_dataset\Network_dataset_23.csv
+--------------------------------------------------
+
+TOTAL RECORDS: 31864826
