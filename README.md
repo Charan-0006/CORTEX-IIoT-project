@@ -102,11 +102,6 @@ The project works with publicly available IIoT and IoT security datasets.
 ### Datasets
 
 - **ToN-IoT**
-- **Edge-IIoTset**
-- **CICAPT-IIoT**
-- **CICIoT2023**
-- **IoT-23**
-- **HAI**
 
 The current development and validation work primarily uses the **ToN-IoT Network Dataset**.
 
@@ -272,37 +267,7 @@ CORTEX-IIoT/
 ```
 
 
-## 📌 Project Status
 
-### Completed
-
-- IIoT data ingestion and preprocessing
-- Network Provenance Graph construction
-- Provenance relationship modeling
-- Graph refinement and validation
-- Temporal attack-path reconstruction
-- Degree Centrality and Betweenness Centrality analysis
-- Structured graph intelligence generation
-- Graph visualization
-- Automated testing
-
-### In Progress
-
-- Context and graph intelligence integration
-- Multi-Agent AI integration
-- Confidence and threat assessment
-- End-to-end system integration
-- Dashboard integration
-
-### Future Work
-
-- Advanced risk scoring
-- Multi-Agent confidence verification
-- Cross-domain temporal consistency validation
-- Complete end-to-end deployment
-- Further performance evaluation
-
----
 
 ## 👥 Team
 
@@ -318,7 +283,7 @@ CORTEX-IIoT/
 ### Project Guide
 
 **Dr. Kurunandan Jain**  
-Assistant Professor
+
 
 
 ## 📄 License
