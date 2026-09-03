@@ -1,0 +1,24 @@
+{
+  "total_records": 190474,
+  "train_records": 152379,
+  "test_records": 38095,
+  "total_features": 137,
+  "numerical_features": 14,
+  "categorical_encoded_features": 123,
+  "original_categorical_features": 22,
+  "missing_values": 0,
+  "duplicate_values": 93175,
+  "attack_classes_count": 10,
+  "attack_classes": [
+    "backdoor",
+    "ddos",
+    "dos",
+    "injection",
+    "mitm",
+    "normal",
+    "password",
+    "ransomware",
+    "scanning",
+    "xss"
+  ]
+}

@@ -1,0 +1,247 @@
+[
+  {
+    "context_object_id": "0654f36a-c7d5-4c9f-acd1-80e3dbf371dd",
+    "timestamp": 1786063539.8262534,
+    "entity_id": "IIOT_NODE_192.168.1.193",
+    "asset_context": {
+      "asset_id": "IIOT_NODE_192.168.1.193",
+      "ip_address": "192.168.1.193",
+      "asset_criticality_level": "CRITICAL_SAFETY",
+      "purdue_level": 0,
+      "device_role": "Industrial Gateway / PLC",
+      "trust_zone": "Zone_0"
+    },
+    "network_telemetry": {
+      "src_ip": "192.168.1.193",
+      "src_port": 49185,
+      "dst_ip": "192.168.1.37",
+      "dst_port": 8080,
+      "protocol": "tcp",
+      "service": "-",
+      "transport_state_score": 0.0,
+      "flow_asymmetry_ratio": 0.0
+    },
+    "temporal_context": {
+      "inter_arrival_delta_ms": 1.0905662846983066,
+      "beaconing_periodicity_score": 0.8879875545857625
+    },
+    "category_scores": {
+      "S_device": 0.65,
+      "S_network": 1.0,
+      "S_traffic": 0.2988,
+      "S_temporal": 0.9,
+      "S_behavioral": 0.1,
+      "S_security": 0.6,
+      "composite_risk_index": 0.5693
+    },
+    "behavioral_history": {
+      "context_divergence_vector": [
+        0.55,
+        0.5,
+        0.0011999999999999789,
+        0.5,
+        0.04999999999999999,
+        0.5499999999999999
+      ],
+      "context_velocity": 0.503394200346417,
+      "assigned_context_cluster": "C4_STATEFUL_ANOMALY"
+    },
+    "human_readable_summary": "Entity IIOT_NODE_192.168.1.193 operating in Purdue Level 0 assigned to C4_STATEFUL_ANOMALY with Composite Risk Index 0.57."
+  },
+  {
+    "context_object_id": "445d90e4-ccc7-499a-8465-ad9fdb3e14b7",
+    "timestamp": 1786063049.8262534,
+    "entity_id": "IIOT_NODE_192.168.1.193",
+    "asset_context": {
+      "asset_id": "IIOT_NODE_192.168.1.193",
+      "ip_address": "192.168.1.193",
+      "asset_criticality_level": "CRITICAL_SAFETY",
+      "purdue_level": 0,
+      "device_role": "Industrial Gateway / PLC",
+      "trust_zone": "Zone_0"
+    },
+    "network_telemetry": {
+      "src_ip": "192.168.1.193",
+      "src_port": 49513,
+      "dst_ip": "192.168.1.37",
+      "dst_port": 8080,
+      "protocol": "tcp",
+      "service": "-",
+      "transport_state_score": 0.0,
+      "flow_asymmetry_ratio": 0.0
+    },
+    "temporal_context": {
+      "inter_arrival_delta_ms": 0.25332384211345954,
+      "beaconing_periodicity_score": 0.20171404040376723
+    },
+    "category_scores": {
+      "S_device": 0.65,
+      "S_network": 1.0,
+      "S_traffic": 0.2422,
+      "S_temporal": 0.2,
+      "S_behavioral": 0.1,
+      "S_security": 0.6,
+      "composite_risk_index": 0.4751
+    },
+    "behavioral_history": {
+      "context_divergence_vector": [
+        0.55,
+        0.5,
+        0.05779999999999999,
+        0.2,
+        0.04999999999999999,
+        0.5499999999999999
+      ],
+      "context_velocity": 0.7572874019390403,
+      "assigned_context_cluster": "C3_RECON_SCANNING"
+    },
+    "human_readable_summary": "Entity IIOT_NODE_192.168.1.193 operating in Purdue Level 0 assigned to C3_RECON_SCANNING with Composite Risk Index 0.48."
+  },
+  {
+    "context_object_id": "ad5f0b1a-5b9a-48d9-b0f3-fb2794830f0f",
+    "timestamp": 1786061049.8262534,
+    "entity_id": "IIOT_NODE_192.168.1.30",
+    "asset_context": {
+      "asset_id": "IIOT_NODE_192.168.1.30",
+      "ip_address": "192.168.1.30",
+      "asset_criticality_level": "HIGH_PRODUCTION",
+      "purdue_level": 1,
+      "device_role": "Industrial Gateway / PLC",
+      "trust_zone": "Zone_1"
+    },
+    "network_telemetry": {
+      "src_ip": "192.168.1.30",
+      "src_port": 54794,
+      "dst_ip": "192.168.1.190",
+      "dst_port": 80,
+      "protocol": "tcp",
+      "service": "-",
+      "transport_state_score": 0.0,
+      "flow_asymmetry_ratio": 0.0
+    },
+    "temporal_context": {
+      "inter_arrival_delta_ms": 0.3680387311623094,
+      "beaconing_periodicity_score": 0.8961706710418517
+    },
+    "category_scores": {
+      "S_device": 0.15,
+      "S_network": 0.5,
+      "S_traffic": 0.3154,
+      "S_temporal": 0.9,
+      "S_behavioral": 0.1,
+      "S_security": 0.6,
+      "composite_risk_index": 0.3973
+    },
+    "behavioral_history": {
+      "context_divergence_vector": [
+        0.04999999999999999,
+        0.0,
+        0.015400000000000025,
+        0.5,
+        0.04999999999999999,
+        0.5499999999999999
+      ],
+      "context_velocity": 0.5459041519352466,
+      "assigned_context_cluster": "C1_VOLUMETRIC_DDOS"
+    },
+    "human_readable_summary": "Entity IIOT_NODE_192.168.1.30 operating in Purdue Level 1 assigned to C1_VOLUMETRIC_DDOS with Composite Risk Index 0.40."
+  },
+  {
+    "context_object_id": "312e00e1-f4ab-423d-b138-d49e24ce9ced",
+    "timestamp": 1786053549.8262534,
+    "entity_id": "IIOT_NODE_192.168.1.152",
+    "asset_context": {
+      "asset_id": "IIOT_NODE_192.168.1.152",
+      "ip_address": "192.168.1.152",
+      "asset_criticality_level": "CRITICAL_SAFETY",
+      "purdue_level": 0,
+      "device_role": "Industrial Gateway / PLC",
+      "trust_zone": "Zone_0"
+    },
+    "network_telemetry": {
+      "src_ip": "192.168.1.152",
+      "src_port": 34767,
+      "dst_ip": "192.168.1.190",
+      "dst_port": 53,
+      "protocol": "udp",
+      "service": "dns",
+      "transport_state_score": 0.0,
+      "flow_asymmetry_ratio": 0.0
+    },
+    "temporal_context": {
+      "inter_arrival_delta_ms": 0.5293344140389218,
+      "beaconing_periodicity_score": 0.6301560080598059
+    },
+    "category_scores": {
+      "S_device": 0.0,
+      "S_network": 0.54,
+      "S_traffic": 0.8946,
+      "S_temporal": 0.7,
+      "S_behavioral": 0.85,
+      "S_security": 0.0,
+      "composite_risk_index": 0.523
+    },
+    "behavioral_history": {
+      "context_divergence_vector": [
+        0.1,
+        0.040000000000000036,
+        0.5946,
+        0.29999999999999993,
+        0.7,
+        0.05
+      ],
+      "context_velocity": 0.6365335946740605,
+      "assigned_context_cluster": "C2_WEB_EXPLOIT"
+    },
+    "human_readable_summary": "Entity IIOT_NODE_192.168.1.152 operating in Purdue Level 0 assigned to C2_WEB_EXPLOIT with Composite Risk Index 0.52."
+  },
+  {
+    "context_object_id": "b02a932a-78f4-4689-bdc2-7585ab445c05",
+    "timestamp": 1786048549.8262534,
+    "entity_id": "IIOT_NODE_192.168.1.31",
+    "asset_context": {
+      "asset_id": "IIOT_NODE_192.168.1.31",
+      "ip_address": "192.168.1.31",
+      "asset_criticality_level": "HIGH_PRODUCTION",
+      "purdue_level": 1,
+      "device_role": "Industrial Gateway / PLC",
+      "trust_zone": "Zone_1"
+    },
+    "network_telemetry": {
+      "src_ip": "192.168.1.31",
+      "src_port": 50540,
+      "dst_ip": "192.168.1.190",
+      "dst_port": 80,
+      "protocol": "tcp",
+      "service": "http",
+      "transport_state_score": 0.0,
+      "flow_asymmetry_ratio": 0.0
+    },
+    "temporal_context": {
+      "inter_arrival_delta_ms": 0.024411303007161697,
+      "beaconing_periodicity_score": 0.2504077244930014
+    },
+    "category_scores": {
+      "S_device": 0.15,
+      "S_network": 0.33,
+      "S_traffic": 0.629,
+      "S_temporal": 0.2,
+      "S_behavioral": 0.1,
+      "S_security": 0.6,
+      "composite_risk_index": 0.3357
+    },
+    "behavioral_history": {
+      "context_divergence_vector": [
+        0.04999999999999999,
+        0.16999999999999998,
+        0.329,
+        0.2,
+        0.04999999999999999,
+        0.5499999999999999
+      ],
+      "context_velocity": 0.6795723720760796,
+      "assigned_context_cluster": "C0_BENIGN_BASELINE"
+    },
+    "human_readable_summary": "Entity IIOT_NODE_192.168.1.31 operating in Purdue Level 1 assigned to C0_BENIGN_BASELINE with Composite Risk Index 0.34."
+  }
+]

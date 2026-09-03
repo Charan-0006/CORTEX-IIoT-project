@@ -1,0 +1,7 @@
+This phase, we focused on validating and correcting our Contextual Intelligence Engine pipeline against the approved design document. Context extraction across the six official dimensions — Temporal, Asset, Network, Device, Operational, Security — is complete and working on the real TON-IoT dataset.
+
+During our own internal review, we identified a data leakage issue in an early scoring prototype, traced it to its exact source, and corrected it — we can walk through the specific evidence if useful.
+
+Separately, we built and calibrated a rule-based reasoning layer that classifies traffic into threat categories with a measured confidence score. I want to be precise: this is exploratory work adjacent to our pipeline, not yet our formal DCCR implementation. We measured its real accuracy against ground truth rather than assuming it — for example, DDoS detection improved from near-zero recall to 71% after we recalibrated the thresholds using actual data distributions instead of guesses, and we're transparent that some categories, like distinguishing XSS from DDoS traffic, still need work.
+
+The actual DCCR algorithm — comparing current behavior against an entity's own historical profile — and the official Context Confidence formula from the design document are our next implementation targets, once Uday's Dynamic Context Profile work, which uses Welford's algorithm and Markov modeling, is validated and ready to feed into them.
