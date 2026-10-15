@@ -1,6 +1,0 @@
-Hop Index,Step Name,Source Entity ID,Source Entity Type,Relationship Type,Target Entity ID,Target Entity Type,Supporting Dataset Attributes,Evidence Log / Record,Provenance Status,Confidence Score
-1,Initial Network Reconnaissance / Scanning,TND_SIP_000105,Source IP (192.168.1.105),COMMUNICATES_WITH,TND_DIP_000001,Destination IP (10.0.0.1),"src_ip, dst_ip, orig_pkts=45, orig_bytes=2880",Zeek connection log entry (UID: C928174),OBSERVED,1.0
-2,Transport Service Port Access,TND_DIP_000001,Destination IP (10.0.0.1),USES_PORT,TND_PRT_000080,Port (80 / HTTP),"dst_ip, dst_port=80, proto=tcp",Network flow transport header log,OBSERVED,1.0
-3,Process Execution & Privilege Escalation,TND_PRT_000080,Port (80 / HTTP),EXECUTES,TND_PRO_001752,Process (PID 1752 / bash),"user=www-data, PID=1752, CMD=/bin/bash",Linux process table audit snapshot,OBSERVED,1.0
-4,System Resource Disk Write Access,TND_PRO_001752,Process (PID 1752 / bash),ACCESSES,TND_RES_000001,System_Resource (LogicalDisk / dev / sda1),"PID=1752, WRDSK=458920, MINFLT=1420",Linux disk I/O telemetry counter log (linux_disk_1.csv),OBSERVED,0.9
-5,Security Alert Ground Truth Generation,TND_PRO_001752,Process (PID 1752 / bash),GENERATES_ALERT,TND_ALT_000001,Alert (Label 1 / Threat Severity High),"label=1, type=Intrusion_Anomaly, timestamp=1629840120",Security anomaly detection log,OBSERVED,1.0
