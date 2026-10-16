@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "model": "qwen3.5:9b",
+  "error": "TimeoutError: timed out"
+}

@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "timestamp_utc": "2026-10-15T18:13:29Z",
+  "data_directory": "C:\\Users\\lok\\Downloads\\IoT_Project\\Adaptive_Graph_Intelligence_DFT\\data\\Processed_datasets",
+  "output_directory": "C:\\Users\\lok\\Downloads\\IoT_Project\\Adaptive_Graph_Intelligence_DFT\\outputs\\week11",
+  "rows_per_file": 2000,
+  "sampling_policy": "first_2000_rows_per_file",
+  "files_discovered": 38,
+  "files_with_errors": 0,
+  "events_loaded": 76000,
+  "events_with_valid_timestamps": 76000,
+  "timestamp_parse_rate": 1.0,
+  "edges_generated": 44434,
+  "candidate_paths": 100,
+  "path_event_rows": 257,
+  "paths_with_temporal_metrics": 100,
+  "visualizations_generated": [
+    "visualizations/01_events_by_source_file.png",
+    "visualizations/02_timestamp_parse_rate.png",
+    "visualizations/03_observed_label_distribution.png",
+    "visualizations/04_relationship_evidence_counts.png",
+    "visualizations/05_connected_component_sizes.png",
+    "visualizations/06_node_degree_distribution.png",
+    "visualizations/07_inter_event_time_gap_distribution.png",
+    "visualizations/08_multihop_blast_radius_curve.png",
+    "visualizations/09_candidate_path_length_distribution.png",
+    "visualizations/10_candidate_path_temporal_span_distribution.png",
+    "visualizations/11_candidate_path_timeline.png",
+    "visualizations/12_chokepoint_frequency.png",
+    "visualizations/13_evidence_type_coverage.png",
+    "visualizations/14_attack_label_density_by_hop.png",
+    "visualizations/15_candidate_path_graph_view.png"
+  ],
+  "llm_result": {
+    "status": "skipped",
+    "reason": "LLM disabled; core graph analysis is independent."
+  },
+  "runtime_seconds": 18.35,
+  "limitations": [
+    "Bounded smoke-test slices reflect file ordering and are not full-dataset censuses.",
+    "Candidate paths reflect graph connectivity and temporal ordering, not confirmed causal attack execution.",
+    "Endpoint continuity and shared identifiers are candidate associations.",
+    "Cross-source clock synchronization is uncalibrated and not merged in this baseline."
+  ]
+}
