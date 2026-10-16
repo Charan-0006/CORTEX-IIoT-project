@@ -1,0 +1,83 @@
+================================================================================
+                    MODULE 1: GRAPH DATASET VALIDATION REPORT                   
+================================================================================
+
+DATASET NAME: Processed_IoT_dataset
+--------------------------------------------------------------------------------
+  • Files Analyzed              : 7
+  • Total Rows (Records)        : 3,606,134
+  • Total Columns               : 21
+  • First 15 Columns            : FC1_Read_Input_Register, FC2_Read_Discrete_Value, FC3_Read_Holding_Register, FC4_Read_Coil, current_temperature, date, door_state, fridge_temperature, humidity, label, latitude, light_status, longitude, motion_status, pressure
+  • Column Details              : ...Remaining columns available in dataset_statistics.json
+  • Total Missing Values        : 152,450 (0.2013%)
+  • Total Duplicate Records     : 810,174 (22.47%)
+  • Detected Timestamp Column(s): date, time
+  • Detected Identifier Col(s) : No Explicit Identifier Detected
+  • Detected Graph Features     : Timestamp, Attack Label, Device
+  • Loading Errors/Failures     : None
+  • Graph Readiness Score (0-1) : 0.906
+  • Graph Readiness Percentage  : 90.6%
+  • Readiness Level             : Excellent
+  • GRAPH READINESS CONCLUSION  : PASSED (Excellent) - Ready for Graph Construction
+
+================================================================================
+
+DATASET NAME: Processed_Linux_dataset
+--------------------------------------------------------------------------------
+  • Files Analyzed              : 6
+  • Total Rows (Records)        : 5,855,329
+  • Total Columns               : 29
+  • First 15 Columns            : CMD, CPU, CPUNR, DSK, EXC, MAJFLT, MEM, MINFLT, NICE, PID, POLI, PRI, RDDSK, RGROW, RSIZE
+  • Column Details              : ...Remaining columns available in dataset_statistics.json
+  • Total Missing Values        : 0 (0.0%)
+  • Total Duplicate Records     : 585 (0.01%)
+  • Detected Timestamp Column(s): ts
+  • Detected Identifier Col(s) : PID
+  • Detected Graph Features     : Timestamp, Identifier, Attack Label, Process
+  • Loading Errors/Failures     : None
+  • Graph Readiness Score (0-1) : 1.0
+  • Graph Readiness Percentage  : 100.0%
+  • Readiness Level             : Excellent
+  • GRAPH READINESS CONCLUSION  : PASSED (Excellent) - Ready for Graph Construction
+
+================================================================================
+
+DATASET NAME: Processed_Network_dataset
+--------------------------------------------------------------------------------
+  • Files Analyzed              : 23
+  • Total Rows (Records)        : 22,339,021
+  • Total Columns               : 47
+  • First 15 Columns            : conn_state, dns_AA, dns_RA, dns_RD, dns_qclass, dns_qtype, dns_query, dns_rcode, dns_rejected, dst_bytes, dst_ip, dst_ip_bytes, dst_pkts, dst_port, duration
+  • Column Details              : ...Remaining columns available in dataset_statistics.json
+  • Total Missing Values        : 0 (0.0%)
+  • Total Duplicate Records     : 1,791,907 (8.02%)
+  • Detected Timestamp Column(s): ts
+  • Detected Identifier Col(s) : dst_ip, src_ip, uid
+  • Detected Graph Features     : Timestamp, Identifier, Source IP, Destination IP, Protocol, Attack Label, User
+  • Loading Errors/Failures     : None
+  • Graph Readiness Score (0-1) : 0.988
+  • Graph Readiness Percentage  : 98.8%
+  • Readiness Level             : Excellent
+  • GRAPH READINESS CONCLUSION  : PASSED (Excellent) - Ready for Graph Construction
+
+================================================================================
+
+DATASET NAME: Processed_Windows_dataset
+--------------------------------------------------------------------------------
+  • Files Analyzed              : 2
+  • Total Rows (Records)        : 64,342
+  • Total Columns               : 224
+  • First 15 Columns            : LogicalDisk(_Total) Avg  Disk Bytes Read, LogicalDisk(_Total) Avg  Disk Bytes Transfer, LogicalDisk(_Total) Avg  Disk Bytes Write, LogicalDisk(_Total) Avg  Disk Queue Length, LogicalDisk(_Total) Avg  Disk Read Queue Length, LogicalDisk(_Total) Avg  Disk Write Queue Length, LogicalDisk(_Total) Avg  Disk sec Read, LogicalDisk(_Total) Avg  Disk sec Transfer, LogicalDisk(_Total) Avg  Disk sec Write, LogicalDisk(_Total) Current Disk Queue Length, LogicalDisk(_Total) Disk Bytes sec, LogicalDisk(_Total) Disk Read Bytes sec, LogicalDisk(_Total) Disk Reads sec, LogicalDisk(_Total) Disk Transfers sec, LogicalDisk(_Total) Disk Write Bytes sec
+  • Column Details              : ...Remaining columns available in dataset_statistics.json
+  • Total Missing Values        : 0 (0.0%)
+  • Total Duplicate Records     : 0 (0.0%)
+  • Detected Timestamp Column(s): Process(_Total) Elapsed Time, ts
+  • Detected Identifier Col(s) : Process(_Total) Creating Process ID, Process(_Total) ID Process, Process_Creating Process ID, Process_ID Process
+  • Detected Graph Features     : Timestamp, Identifier, Attack Label, User, Process, Asset
+  • Loading Errors/Failures     : None
+  • Graph Readiness Score (0-1) : 1.0
+  • Graph Readiness Percentage  : 100.0%
+  • Readiness Level             : Excellent
+  • GRAPH READINESS CONCLUSION  : PASSED (Excellent) - Ready for Graph Construction
+
+================================================================================

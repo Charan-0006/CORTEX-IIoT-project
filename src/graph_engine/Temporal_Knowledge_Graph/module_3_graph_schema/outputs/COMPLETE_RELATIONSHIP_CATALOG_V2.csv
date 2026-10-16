@@ -1,0 +1,26 @@
+Relationship ID,Source Node,Relationship Type,Target Node,Supporting Features,Relationship Attributes,Observed / Derived / Inferred,Confidence / Score,Inference Mechanism,Evidence / Reason,TKG Relevance
+REL_001,Source IP,COMMUNICATES_WITH,Destination IP,"src_ip, dst_ip, orig_h, resp_h","orig_bytes, resp_bytes, orig_pkts, resp_pkts",OBSERVED,1.0,Deterministic Schema Verification,Network packet IP header logs,Primary network communication edge
+REL_002,User,EXECUTES,Process,"user, PID, CMD","timestamp, CPU_time",OBSERVED,1.0,Deterministic Schema Verification,Windows/Linux process creation audit,User process execution tracking
+REL_003,Session,USES_PROTOCOL,Protocol,"uid, proto, service",conn_state,OBSERVED,1.0,Deterministic Schema Verification,Zeek network session protocol log,Protocol mapping
+REL_004,Process,RUNS_ON,Host,"PID, host, hostname","VSIZE, RSIZE, CPU_pct",OBSERVED,0.95,Host Machine Telemetry Match,OS process table host telemetry,Process host mapping
+REL_005,Process,CREATES,Process,"creating_process_id, PID",timestamp,OBSERVED,1.0,Deterministic Schema Verification,Parent-child process tree lineage,Process tree lineage hierarchy
+REL_006,Device,GENERATES_ALERT,Alert,"device_id, label, type","timestamp, threat_score",OBSERVED,1.0,Deterministic Schema Verification,IoT security detection log,Security alert logging
+REL_007,Process,ACCESSES,System_Resource,"PID, LogicalDisk, Memory","RDDSK, WRDSK, MINFLT",OBSERVED,0.9,System Resource Counter Link,Process I/O & page fault counters,Resource I/O access
+REL_008,Event (t_i),NEXT_EVENT,Event (t_i+1),"timestamp, seq_no",delta_time_ms,OBSERVED,1.0,Monotonic Timestamp Ordering,Monotonic timestamp event sequence,Temporal sequence backbone
+REL_009,Event (t_i+1),PREVIOUS_EVENT,Event (t_i),"timestamp, seq_no",delta_time_ms,OBSERVED,1.0,Monotonic Timestamp Ordering,Reverse timestamp event ordering,Reverse temporal backbone
+REL_010,Event (t_i),BEFORE,Event (t_i+1),timestamp,time_lag,OBSERVED,1.0,Strict Temporal Inequality (t_i < t_i+1),Strict temporal inequality,Temporal precedence link
+REL_011,Event (t_i+1),AFTER,Event (t_i),timestamp,time_lag,OBSERVED,1.0,Strict Temporal Inequality (t_i+1 > t_i),Strict temporal inequality,Temporal succession link
+REL_012,Node A,SAME_HOST,Node B,"host, hostname",co_location_time,OBSERVED,1.0,Asset Identifier Co-location,Shared host machine asset identifier,Host co-location link
+REL_013,Node A,SAME_SESSION,Node B,"uid, session_id",co_location_time,OBSERVED,1.0,Session UID Co-location,Shared network session UID,Session co-location link
+REL_014,Node A,SAME_USER,Node B,"user, username",co_location_time,OBSERVED,1.0,User Authority Co-location,Shared user account authority,User co-location link
+REL_015,Source IP,USES_PORT,Port,"src_ip, src_port",port_type,OBSERVED,1.0,Transport Port Header Link,Transport layer TCP/UDP port binding,Transport port mapping
+REL_016,Session,CONTAINS_FLOW,Network_Flow,"uid, flow_id","total_bytes, total_pkts",OBSERVED,1.0,Flow Aggregation Match,Flow record connection aggregation,Flow aggregation link
+REL_017,Process,RUNS_COMMAND,Command,"PID, CMD",execution_string,OBSERVED,1.0,CLI Audit Log Match,Process CLI execution audit string,Process CLI execution mapping
+REL_018,IoT_Sensor,MEASURES,ProcessVariable,"sensor_id, FC1_Reg",sampling_rate,OBSERVED,1.0,BRIDG-ICS Modbus Register Link,BRIDG-ICS sensor Modbus register link,BRIDG-ICS process variable measurement
+REL_019,ProcessVariable,OBSERVED_AT,Observation,"reg_id, obs_id","timestamp, numeric_val",DERIVED,1.0,Mathematical Function Verification,BRIDG-ICS timestamped sensor reading,BRIDG-ICS observation temporal instance
+REL_020,Source IP,TRANSFERS_DATA,Destination IP,"src_ip, dst_ip, orig_bytes","payload_size, transfer_rate",OBSERVED,1.0,Non-Zero Payload Byte Filter,Non-zero payload byte transfer,Data payload transfer edge
+REL_021,User,AUTHENTICATES_WITH,Account,"user, account_type","auth_time, status",OBSERVED,1.0,System Logon Event Verification,System logon authentication event,User account authentication
+REL_022,Host,BOUND_TO_ADAPTER,Network_Adapter,"host, Network_I","bandwidth, status",OBSERVED,0.95,Windows NIC Adapter Binding,Windows NIC adapter binding,Host NIC adapter binding
+REL_023,Process,ALLOCATES_MEMORY,Memory_Pool,"PID, Pool_Paged_Bytes",allocated_bytes,OBSERVED,0.9,Memory Pool Counter Link,Windows process memory pool allocation,Process memory pool allocation
+REL_024,Host / Device,IN_OPERATIONAL_STATE,OperationalState,"host, conn_state, TRUN",state_duration,OBSERVED,0.95,Run State Indicator Link,Host execution state / conn state,System operational state binding
+REL_025,Process,CO_LOCATED_ON,User,"user, host, timestamp, PID",co_occurrence_time,INFERRED,0.85,Host & Timestamp Windowing Match,Co-occur on same host asset within identical 1s window,Candidate session co-location edge

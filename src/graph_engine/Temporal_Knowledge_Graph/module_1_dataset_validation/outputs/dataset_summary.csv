@@ -1,0 +1,5 @@
+Dataset,Rows,Columns,Missing Values,Missing %,Duplicate Records,Timestamp Available,Identifier Available,Graph Readiness Score,Readiness Level
+Processed_IoT_dataset,3606134,21,152450,0.2013,810174,Yes,Yes,0.906,Excellent
+Processed_Linux_dataset,5855329,29,0,0.0,585,Yes,Yes,1.0,Excellent
+Processed_Network_dataset,22339021,47,0,0.0,1791907,Yes,Yes,0.988,Excellent
+Processed_Windows_dataset,64342,224,0,0.0,0,Yes,Yes,1.0,Excellent

@@ -1,0 +1,15 @@
+Metric,Value,Category
+Total Node Types,10,Graph Topology
+Total Edge Types,7,Graph Topology
+Total Relationship Types,7,Graph Topology
+Total Node Properties,430,Schema Attributes
+Total Edge Properties,218,Schema Attributes
+Total Primary Keys,10,Schema Integrity
+Mandatory Node Properties,24,Property Constraints
+Optional Node Properties,406,Property Constraints
+Mandatory Edge Properties,10,Property Constraints
+Optional Edge Properties,208,Property Constraints
+Total Mandatory Properties,34,Property Constraints
+Total Optional Properties,614,Property Constraints
+Average Properties per Node Type,43.0,Distribution Averages
+Average Properties per Edge Type,31.14,Distribution Averages
